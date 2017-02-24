@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Guess the Singer</string>
+    <string name="number_questions">Number of questions</string>
+    <string name="number_questions_summary">How many questions you want</string>
+    <string name="number_variants">Quantity answers</string>
+    <string name="number_variants_summary">How many response options you want</string>
+    <string name="key_questions_preferences">key_questions_preferences</string>
+    <string name="key_variants_preferences">key_variants_preferences</string>
+    <string name="result1">Number of correct answers:</string>
+    <string name="result2">%1$s/%2$s</string>
+    <string name="result3">Restart?</string>
+    <string name="CorrectAnswer">True!</string>
+    <string name="IncorrectAnswer">False!</string>
+</resources>

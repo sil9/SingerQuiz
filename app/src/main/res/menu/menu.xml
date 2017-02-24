@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="Settings"
+        android:icon="@drawable/ic_settings_24dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:showAsAction="ifRoom"
+        android:id="@+id/Settings"/>
+    <item
+        android:title="Restart"
+        android:icon="@drawable/ic_refresh_24dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:showAsAction="ifRoom"
+        android:id="@+id/Restart"/>
+    <item
+        android:title="Close"
+        android:icon="@drawable/ic_close_24dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:showAsAction="ifRoom"
+        android:id="@+id/Close"/>
+</menu>

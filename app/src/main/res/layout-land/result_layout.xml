@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/backgr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:alpha="0.75">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:id="@+id/resultTextView2"
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        tools:text="Results"/>
+    <TextView
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:id="@+id/resultTextView1"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_above="@id/resultTextView2"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="Results"/>
+    <TextView
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:id="@+id/resultTextView3"
+        android:layout_below="@id/resultTextView2"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="Results"/>
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/resultTextView3"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="@drawable/button_selector"
+            android:text="Да"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="@drawable/button_selector"
+            android:text="Нет"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

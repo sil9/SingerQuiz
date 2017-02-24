@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="number_variants">
+        <item>Easy (2 versions)</item>
+        <item>Normal (3 versions)</item>
+        <item>Hard (4 versions)</item>
+    </string-array>
+
+    <string-array name="number_variants_values">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="number_questions">
+        <item>5 questions</item>
+        <item>10 questions</item>
+        <item>15 questions</item>
+        <item>20 questions</item>
+    </string-array>
+
+    <string-array name="number_questions_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="names">
+        <item>Alicia Keys</item>
+        <item>Avril Lavigne</item>
+        <item>Beyonce Knowles</item>
+        <item>Britney Spears</item>
+        <item>Christina Milian</item>
+        <item>Ciara</item>
+        <item>Gwen Stefani</item>
+        <item>Iggy Azalea</item>
+        <item>Jennifer Lopez</item>
+        <item>Jessica Simpson</item>
+        <item>Katharine McPhee</item>
+        <item>Katy Perry</item>
+        <item>Lady Gaga</item>
+        <item>Madonna</item>
+        <item>Miley Cyrus</item>
+        <item>Nicole Scherzinger</item>
+        <item>Rihanna</item>
+        <item>Selena Gomez</item>
+        <item>Shakira</item>
+        <item>Tara Reid</item>
+        <item>Biyanka</item>
+        <item>Inna Hot</item>
+        <item>Nicki Minaj</item>
+        <item>Nyusha</item>
+        <item>Olga Seryabkina</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:title="@string/number_variants"
+        android:summary="@string/number_variants_summary"
+        android:entries="@array/number_variants"
+        android:entryValues="@array/number_variants_values"
+        android:key="@string/key_variants_preferences"
+        android:defaultValue="4"/>
+
+    <ListPreference
+        android:title="@string/number_questions"
+        android:summary="@string/number_questions_summary"
+        android:entries="@array/number_questions"
+        android:textColor="@color/primary"
+        android:entryValues="@array/number_questions_values"
+        android:key="@string/key_questions_preferences"
+        android:defaultValue="10"/>
+
+</PreferenceScreen>
